@@ -180,7 +180,7 @@ const mail = async (mailDetails) => {
         secureConnection: false,
         auth: {
             user: "waseemrajamca44@gmail.com",
-            pass: "xzuuqffkltbtypxd"
+            pass: ""
         },
         tls: {
             rejectUnAuthorized: true
@@ -197,7 +197,7 @@ const mail = async (mailDetails) => {
         service: 'gmail',
         auth: {
             user: "waseemrajamca44@gmail.com",
-            pass: "xzuuqffkltbtypxd"
+            pass: ""
         }
     });
     mailTransporter.sendMail(mailDetails, function (err, data) {

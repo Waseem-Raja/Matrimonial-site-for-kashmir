@@ -181,7 +181,7 @@ module.exports.Registrationn = async (req, res) => {
                                 port: 2525,     //587 scecure:false or 465 secure:true
                                 auth: {
                                     user: "waseemrajamca44@gmail.com",
-                                    pass: "xzuuqffkltbtypxd"
+                                    pass: ""
                                 }
                             })
                             .sendMail(msg, (err) => {
@@ -826,7 +826,7 @@ module.exports.passwordrecover = async (req, res) => {
                         port: 2525,
                         auth: {
                             user: "waseemrajamca44@gmail.com",
-                            pass: "xzuuqffkltbtypxd"
+                            pass: ""
                         },
 
                     })
@@ -915,7 +915,7 @@ module.exports.otpprocessing = (req, res) => {
                             port: 25,
                             auth: {
                                 user: "waseemrajamca44@gmail.com",
-                                pass: "xzuuqffkltbtypxd"
+                                pass: ""
                             },
                         })
                         .sendMail(msg, (err) => {
@@ -1177,7 +1177,7 @@ module.exports.contactus = async (req, res) => {
                 service: 'gmail',
                 auth: {
                     user: "waseemrajamca44@gmail.com",
-                    pass: "xzuuqffkltbtypxd"
+                    pass: ""
                 }
             })
             .sendMail(mailDetails, function (err, data) {
